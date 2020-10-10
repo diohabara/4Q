@@ -1,5 +1,5 @@
 <template>
-  <div class="container bg-gray-100 h-screen m-auto max-w-600">
+  <div class="container bg-gray-100 m-auto max-w-600">
     <div class="p-4">
       <img class="logo" src="/logo.png" />
     </div>
