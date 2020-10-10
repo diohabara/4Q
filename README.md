@@ -10,6 +10,7 @@ web サイト上で四択問題を作成できるサイト
 ## 実装時間を記録する
 
 - [ ] UI の作成
+      1hour 簡単なロゴの作成、TwitterButton と Toppage の作成
 - [ ] twitter, google auth の作成
 - [ ] firestore との連携
 - [ ] cloudfunction の作成
@@ -38,3 +39,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+# 作業メモ
+
+[fontawesome document](https://www.npmjs.com/package/nuxt-fontawesome）

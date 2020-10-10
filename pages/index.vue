@@ -1,80 +1,42 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        4Q
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="container bg-gray-100 h-screen m-auto max-w-600">
+    <div class="p-4">
+      <img class="logo" src="/logo.png" />
+    </div>
+    <div class="text-center">
+      <h1 class="text-4xl">4Q 四択問題作成サイト</h1>
+      <div class="text-xl">
+        四択問題を簡単に作成して、SNSに広げてフォロワーに出題しよう！
       </div>
+    </div>
+    <div class="flex justify-center p-8">
+      <TwitterButton @twitter-login="login" />
+    </div>
+    <div class="text-center text-2xl">
+      <h2>遊び方</h2>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
-export default Vue.extend({})
+export default Vue.extend({
+  methods: {
+    login: function() {
+      console.log("login");
+    }
+  }
+});
 </script>
 
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
+<style scoped>
+.max-w-600 {
+  max-width: 750px;
 }
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.logo {
+  width: 400px;
+  height: 400px;
+  margin: auto;
 }
 </style>
