@@ -1,5 +1,18 @@
 # 4Q
 
+4 択問題簡単生成サイト
+
+web サイト上で四択問題を作成できるサイト
+
+共有する際に問題文と以下のような ogp の画像を表示
+![](./ogp-sample.png)
+
+## 実装時間を記録する
+
+## 使用技術
+
+Nuxt/Typescript/Firestore/Vercel
+
 ## Build Setup
 
 ```bash
