@@ -9,6 +9,13 @@ web サイト上で四択問題を作成できるサイト
 
 ## 実装時間を記録する
 
+- [ ] UI の作成
+- [ ] twitter, google auth の作成
+- [ ] firestore との連携
+- [ ] cloudfunction の作成
+- [ ] vercel にデプロイ
+- [ ] domain の作成
+
 ## 使用技術
 
 Nuxt/Typescript/Firestore/Vercel
