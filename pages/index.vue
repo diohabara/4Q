@@ -23,10 +23,10 @@ import Vue from "vue";
 
 export default Vue.extend({
   methods: {
-    login: function() {
+    login: function () {
       console.log("login");
-    }
-  }
+    },
+  },
 });
 </script>
 
@@ -35,8 +35,8 @@ export default Vue.extend({
   max-width: 750px;
 }
 .logo {
-  width: 400px;
-  height: 400px;
+  /* width: 400px;
+  height: 400px; */
   margin: auto;
 }
 </style>
